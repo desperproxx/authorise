@@ -1,0 +1,15 @@
+AppBundle\Entity\Zac:
+    type: entity
+    table: null
+    repositoryClass: AppBundle\Repository\ZacRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        qwer:
+            type: string
+            length: '64'
+    lifecycleCallbacks: {  }
